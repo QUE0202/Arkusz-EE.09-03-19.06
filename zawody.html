@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styl5.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wędkowanie - moje hobby</title>
+</head>
+<body>
+    <header>
+        <div id="bl1">
+            <img src="zawody.jpg" alt="ZAWODY WĘDKARSKIE">
+        </div>
+        <div id="bl2">
+            <h1>
+                WĘDKOWANIE - MOJE HOOBBY
+            </h1>
+        </div>
+        <div id="bl3">
+            <a href="kwerendy.txt">POBIERZ PLIK</a>
+        </div>
+    </header>
+    <main>
+        <h2>
+            Dodaj nowe zawody wędkarskie
+        </h2>
+        <form method="POST" action="zgłoszenie.php">
+            <label for="lowiskoID">ŁOWISKO:</label></br>
+            <input type="number" name="łowisko" id="lowiskoID">
+            <label for="dataID">Data (rrrr-mm-dd):</label></br>
+            <input type="text" name="data" id="dataID">
+            <label for="sedziaID">SĘDZIA:</label></br>
+            <input type="text" name="sędzia" id="sedziaID">
+            <input type="reset" value="czyść">
+            <input type="submit" value="dodaj">
+        </form>
+        <h2>
+            ŁOWISKA:
+        </h2>
+        <ol>
+            <li>
+                ZALEW WĘGORSKI
+            </li>
+            <li>
+                ZBIORNIK BUKÓWKA
+            </li>
+            <li>
+                JEZIORO BARTBETOWSKIE
+            </li>
+            <li>
+                WARTA OBRZYCKO
+            </li>
+        </ol>
+    </main>
+    <footer>
+        <p>
+            STRONĘ PRZYGOTOWAŁ: JAKUB TROKA
+        </p>
+    </footer>
+</body>
+</html>
